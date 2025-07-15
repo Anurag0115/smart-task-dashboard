@@ -1,28 +1,5 @@
-# Ignore virtual environment folder
 venv/
-
-# Ignore SQLite database file (will be created dynamically)
 tasks.db
-
-# Ignore compiled Python files
 __pycache__/
-*.py[cod]
-*$py.class
-
-# Ignore Jupyter/IPython checkpoints
-.ipynb_checkpoints/
-
-# Ignore environment variable or secret files
-.env
-.env.*
-
-# Ignore log and temporary files
-*.log
-*.tmp
-*.bak
+*.pyc
 .DS_Store
-Thumbs.db
-
-# Ignore editor/IDE settings
-.vscode/
-.idea/
